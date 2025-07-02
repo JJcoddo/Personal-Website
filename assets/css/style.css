@@ -135,12 +135,29 @@ hr {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   body {
     font-size: 14px;
   }
   #about, #programming-languages,#projects,#contact{
     width: 95%;
+   
+  }
+  nav ul{
+    display: inline-block;
+  }
+  nav ul li{
+    margin-top: 14px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  #about, #programming-languages,#projects,#contact{
+    width: 65%;
    
   }
   nav ul{
