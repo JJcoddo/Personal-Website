@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luigi's restaurant</title>
+</head>
+<body>
+  <header>
+    <img id="header-img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/91/bb/58/logo.jpg?w=600&h=400&s=1" alt="Logo Luigi">
+    <h1>Luigi's restaurant</h1>
+    <nav>
+    <h2><a href="#menu">Menu</a></h2>
+    <h2><a href="#order-form">Order Form</a></h2>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2 id="menu">Menu</h2>
+      <article>
+        <h3>Pizza margherita</h3>
+        <img width="150" src="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/5802fab5-fdce-468a-a830-43e8001f5a72/Derivates/c00dc34a-e73d-42f0-a86e-e2fd967d33fe.jpg" alt="Pizza margherita">
+        <p>Pomodoro,mozzarella,basilico</p>
+      </article>
+      <article>
+        <h3>Pizza Marinara</h3>
+        <img width="150" src="https://www.pizzarecipe.org/wp-content/uploads/2019/01/Pizza-Marinara-632x474.jpg" alt="Pizza marinara">
+        <p>Pomodoro,aglio,origano,basilico</p>
+      </article>
+      <article>
+        <h3>Pizza 4 formaggi</h3>
+        <img width="150" src="https://thinkmilkbesmart.eu/wp-content/uploads/2024/01/pizza-quattro-formaggi-600x400.jpg" alt="Pizza 4 formaggi">
+        <p>Mozzarella di bufala,gorgonzola,fontina,parmigiano</p>
+      </article>
+    </section>
+    <section>
+      <h2 id="order-form">Place Your Order</h2>
+      <form action="">
+        <label for="margherita"></label>Margherita<input type="number" min="0"name="margherita" ><br><br>
+        <label for="marinara"></label>Marinara <input type="number" min="0" name="marinara"> <br><br>
+        <label for="4formaggi"></label>4 formaggi <input type="number" min="0" name="4formaggi"><br><br>
+        <label for="add-ons">Water</label><input type="checkbox" name="add-ons">
+        <label for="add-ons">Wine</label><input type="checkbox" name="add-ons"> <br> <br>
+        <label for="note"></label><b>Notes or special guest</b> <br><textarea name="note" maxlength="120" rows="10" cols="30"></textarea> <br>
+        <label for="checkout"></label><input type="submit" name="checkout" value="Go To Checkout">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Made with love by your Lasagnalragu</p>
+  </footer>
+</body>
+</html>
