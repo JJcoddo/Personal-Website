@@ -116,6 +116,10 @@ h3 {
   margin: 20px 10px;
 }
 
+a img:hover{
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
 
 
 #html5,#css3,#javascript {
