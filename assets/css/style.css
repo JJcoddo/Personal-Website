@@ -11,6 +11,7 @@ body{
   background-repeat: inherit;
   color: aliceblue;
   font-size: 16px
+ 
   
 
 }
@@ -140,6 +141,7 @@ hr {
 @media (max-width: 1024px) {
   body {
     font-size: 16px;
+    overflow-x: hidden;
   }
   #about, #programming-languages,#projects,#contact{
     width: 85%;
@@ -160,6 +162,7 @@ hr {
 @media (max-width: 768px) {
   body {
     font-size: 14px;
+    overflow-x: hidden;
   }
   #about, #programming-languages,#projects,#contact{
     width: 95%;
