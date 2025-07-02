@@ -106,6 +106,13 @@ article h3 {
   width: 50%;
 }
 
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 h3 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.7rem;
