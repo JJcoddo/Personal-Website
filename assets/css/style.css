@@ -167,6 +167,9 @@ hr {
   h2 {
     font-size: 2rem;
   }
+  .avatar{
+    width: 30%;
+  }
 
 }
 
@@ -187,6 +190,9 @@ hr {
   }
     h2 {
     font-size: 1.5rem;
+  }
+    .avatar{
+    width: 50%;
   }
 
 
