@@ -7,7 +7,7 @@
 
 
 body{
-  background-image:"../assets/img/bodys.png";
+  background-image:url("/assets/img/bodys.png");
   background-repeat: inherit;
   color: aliceblue;
   font-size: 16px
@@ -16,7 +16,7 @@ body{
 }
 
 figure {
-  background-image:"../assets/img/code.png";
+  background-image:url("/assets/img/code.png");
   border: 2px solid black;
 }
 
